@@ -1,0 +1,1967 @@
+@font-face {
+    font-family: "Lemonada";
+    src: url("./Lemonada-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Subject";
+    src: url("./FC\ Subject\ Rounded\ Regular.ttf") format("truetype");
+    ;
+}
+
+.btpading {
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.aboutustitle {
+    font-size: 2rem;
+    font-family: Lemonada;
+    color: white;
+}
+
+.imgaboutus {
+    border-radius: 100%;
+    max-width: 60px;
+    border: 3px solid rgb(255 255 255);
+}
+
+.aboutush1 {
+    font-family: Lemonada;
+    font-size: 1rem;
+}
+
+.aboutuslink {
+    font-family: Lemonada !important;
+    color: #fff;
+    text-decoration: none;
+}
+
+.poshome {
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.posaboutus {
+    top: 7%;
+    right: 8%;
+}
+
+.aboutuslink:hover {
+    text-decoration: none;
+    background: linear-gradient(92.87deg, #94DFFF 5.88%, rgba(255, 246, 168, 0.89) 49.14%, #E8B6FF 90.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 72px 48px rgb(128 92 0 / 22%), 0px 26.2812px 17.5208px rgb(128 92 0 / 15%), 0px 12.759px 8.50602px rgb(128 92 0 / 12%), 0px 6.25471px 4.16981px rgb(128 92 0 / 10%), 0px 2.47312px 1.64875px rgb(128 92 0 / 7%);
+}
+
+.audioplay {
+    position: absolute;
+    left: -50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+}
+
+
+* {
+    font-family: Subject;
+}
+
+br {
+    display: none;
+}
+
+.fadein {
+    animation: fadeIn forwards 3s;
+}
+
+.fadeindelay {
+    animation: fadeIn 3s forwards 1s;
+}
+
+.fontresult {
+    font-size: 1rem !important;
+}
+
+.fontresultTitle {
+    font-size: 2rem !important;
+}
+
+.opa {
+    opacity: 0;
+}
+
+.poselonname {
+    font-size: 1.5rem !important;
+    top: 16%;
+    left: 30%;
+}
+
+.poselonpost {
+    font-size: 0.8rem !important;
+    top: 30%;
+    left: 10%;
+    text-align: start !important;
+}
+
+.poschatanaimg1 {
+    width: 40px;
+    top: 54px;
+    left: 17px;
+}
+
+.poschatana1 {
+    background: white;
+    font-size: 1rem !important;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 63px;
+    left: 61px;
+}
+
+
+.banana {
+    max-width: 110px;
+    position: absolute;
+    border: 3px solid white;
+    background: white;
+    border-radius: 20px;
+    top: 98px;
+    left: 60px;
+}
+
+.posemail {
+    font-size: 0.5rem !important;
+    position: absolute;
+    background: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: translateX(20%);
+    text-align: start;
+    max-width: 68px;
+    top: 35%;
+}
+
+
+.posthoughtMark {
+    position: absolute !important;
+    top: -43px;
+    left: -70px;
+}
+
+.postMarkscoll {
+    position: absolute !important;
+    top: -40px;
+    left: -87px;
+}
+
+.posJobdownload {
+    position: absolute !important;
+    top: -57px;
+    left: -58px;
+}
+
+.posJobshare {
+    position: absolute !important;
+    top: -58px;
+    left: -65px;
+}
+
+.posJobchat {
+    position: absolute !important;
+    top: -32px;
+    left: -77px;
+}
+
+
+.posFriend {
+    position: absolute !important;
+    top: -23px;
+    right: -50px;
+}
+
+.posthoughtJob {
+    position: absolute !important;
+    top: -60px;
+    left: -77px;
+}
+
+.posthoughtJob3 {
+    position: absolute !important;
+    top: -60px;
+    left: -77px;
+}
+
+.posthoughtJob2 {
+    position: absolute !important;
+    top: -60px;
+    left: -77px;
+}
+
+.posthoughtJob4 {
+    position: absolute !important;
+    top: -60px;
+    left: -77px;
+}
+
+.posthoughtElon {
+    position: absolute !important;
+    top: -41px;
+    left: -65px;
+}
+
+.posthoughtMark3_4 {
+    position: absolute !important;
+    top: -57px;
+    left: -75px;
+}
+
+.poschatgate1 {
+    font-size: 0.7rem !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    top: 16%;
+    right: 32%;
+}
+
+.poschatgate2 {
+    font-size: 0.7rem !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    top: 25%;
+    right: 32%;
+}
+
+.poschatgate3 {
+    font-size: 0.7rem !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    top: 34%;
+    right: 32%;
+}
+
+.posheadgate {
+    width: 25px;
+    top: 15%;
+    right: 10%;
+}
+
+.posheadelon {
+    width: 30px;
+    top: 35%;
+    left: 10%;
+    background: aquamarine;
+}
+
+.posheadmember {
+    width: 30px;
+    top: 15%;
+    left: 10%;
+    background: aquamarine;
+}
+
+.posheadmember2 {
+    width: 30px;
+    top: 40%;
+    right: 10%;
+    background: aquamarine;
+    animation: chat 3s forwards 3s;
+}
+
+.posthaijo {
+    position: absolute;
+    font-size: 1.2rem !important;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-30%);
+}
+
+.posheadelon2 {
+    width: 30px;
+    top: 55%;
+    left: 10%;
+    background: aquamarine;
+}
+
+.poschatmember2 {
+    font-size: 1rem !important;
+    background-color: whitesmoke !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    max-width: 96px;
+    top: 40%;
+    right: 30%;
+    text-align: start;
+    animation: chat 3s forwards 3s;
+}
+
+@keyframes chat {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+
+.poschatelon2 {
+    font-size: 1rem !important;
+    background-color: whitesmoke !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    max-width: 136px;
+    top: 56%;
+    left: 25%;
+    text-align: start;
+}
+
+.poschatelon {
+    font-size: 1rem !important;
+    background-color: whitesmoke !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    max-width: 136px;
+    top: 35%;
+    left: 25%;
+    text-align: start;
+}
+
+.poschatmember {
+    font-size: 1rem !important;
+    background-color: whitesmoke !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    max-width: 150px;
+    top: 15%;
+    left: 30%;
+    text-align: start;
+}
+
+.posthoughtMark4_1 {
+    position: absolute !important;
+    top: -47px;
+    right: -40px;
+}
+
+.posthoughtBos4_1 {
+    position: absolute !important;
+    top: -57px;
+    left: -75px;
+}
+
+.posthoughtMark4_2 {
+    position: absolute !important;
+    top: -50px;
+    left: -92px;
+}
+
+.posthoughtGate5_2 {
+    position: absolute !important;
+    top: -46px;
+    left: -90px;
+}
+
+.posthoughtGate5_3 {
+    position: absolute !important;
+    top: -48px;
+    left: -65px;
+}
+
+
+.posthoughtGate6_2 {
+    position: absolute !important;
+    top: -48px;
+    left: -85px;
+}
+
+.posthoughtfanGate6_2 {
+    position: absolute !important;
+    top: -60px;
+    right: -81px;
+}
+
+.posthoughtFam {
+    position: absolute !important;
+    top: -71px;
+    right: -81px;
+}
+
+.poschatimgmark1 {
+    width: 23px;
+    top: 34px;
+    left: 10px;
+}
+
+.gatemobile {
+    width: 125px;
+}
+
+.poschatmark1 {
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    font-size: 0.7rem !important;
+    top: 36px;
+    left: 35px;
+}
+
+.poschatmark2 {
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    font-size: 0.7rem !important;
+    top: 60px;
+    left: 35px;
+}
+
+.poschatmark3 {
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    font-size: 0.7rem !important;
+    top: 84px;
+    left: 35px;
+}
+
+.poscomment {
+    bottom: 86px;
+    left: 76px;
+    font-size: 1.5rem !important;
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    animation: markanimate 3s forwards;
+}
+
+.postimg {
+    width: 200px;
+}
+
+.postimg4 {
+    width: 200px;
+}
+
+.postimg3 {
+    width: 200px;
+}
+
+.postimg2 {
+    width: 160px;
+}
+
+.poscomment {
+    bottom: 82px;
+    left: 45px;
+    font-size: 1rem !important;
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+.poscomment2 {
+    bottom: 50px;
+    left: 45px;
+    font-size: 1rem !important;
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+.poscomment3 {
+    bottom: 19px;
+    left: 45px;
+    font-size: 1rem !important;
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    animation: postcomment 3s forwards;
+}
+
+.pos1imgcomment {
+    bottom: 100px;
+    left: 16px;
+    width: 25px;
+}
+
+.pos2imgcomment {
+    bottom: 68px;
+    left: 16px;
+    width: 25px;
+}
+
+.pos3imgcomment {
+    bottom: 38px;
+    left: 16px;
+    width: 25px;
+    animation: postcomment 3s forwards;
+}
+
+@keyframes postcomment {
+    0% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.chatleft {
+    font-size: 0.7rem !important;
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    min-width: 40px;
+    min-height: 40px;
+    margin: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.chatleft:before,
+.chatleft:after {
+    content: "";
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.chatleft:after {
+    bottom: -10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    box-shadow: 10px 25px 0 -10px #fff;
+}
+
+.chatright {
+    font-size: 0.7rem !important;
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    min-width: 40px;
+    min-height: 40px;
+    margin: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.chatright:before,
+.chatright:after {
+    content: "";
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.chatright:after {
+    bottom: -10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    box-shadow: -10px 25px 0 -10px #fff;
+}
+
+
+.thoughtleft {
+    font-size: 0.7rem !important;
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    min-width: 40px;
+    min-height: 40px;
+    margin: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.thoughtleft:before,
+.thoughtleft:after {
+    content: "";
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+.thoughtleft:before {
+    width: 44px;
+    height: 44px;
+    top: -12px;
+    left: 28px;
+    box-shadow: -50px 30px 0 -12px #fff;
+}
+
+.thoughtleft:after {
+    bottom: -10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    box-shadow: 10px 25px 0 -10px #fff;
+}
+
+
+.thoughtright {
+    font-size: 0.7rem !important;
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    min-width: 40px;
+    max-width: 400px;
+    min-height: 40px;
+    margin: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.thoughtright:before,
+.thoughtright:after {
+    content: "";
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+.thoughtright:before {
+    width: 44px;
+    height: 44px;
+    top: -12px;
+    right: 28px;
+    box-shadow: 50px 30px 0 -12px #fff;
+}
+
+.thoughtright:after {
+    bottom: -10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    box-shadow: -10px 25px 0 -10px #fff;
+}
+
+
+.imgst img {
+    max-width: 100px;
+    max-height: 150px;
+}
+
+.imgresult {
+    max-width: 200px;
+    max-height: 250px;
+}
+
+.pos {
+    animation: pos 3s forwards;
+}
+
+
+.mobilescoll {
+    max-width: 69px;
+    border-radius: 7px;
+}
+
+.formbox {
+    background: rgba(255, 253, 233, 0.5);
+    box-shadow: 0px 51px 72px rgba(139, 78, 5, 0.11), 0px 25.5249px 36.0352px rgba(139, 78, 5, 0.0836366), 0px 15.375px 21.7059px rgba(139, 78, 5, 0.0716748), 0px 9.85311px 13.9103px rgba(139, 78, 5, 0.0627984), 0px 6.38599px 9.01552px rgba(139, 78, 5, 0.055), 0px 4.01991px 5.67517px rgba(139, 78, 5, 0.0472016), 0px 2.30969px 3.26074px rgba(139, 78, 5, 0.0383252), 0px 1.01655px 1.43513px rgba(139, 78, 5, 0.0263634);
+    border-radius: 100px;
+}
+
+.form-age {
+    padding-top: 50px;
+}
+
+.inputagebox {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.formName {
+    opacity: 1 !important;
+    padding-top: 50px;
+}
+
+.formName h1 {
+    font-family: Subject;
+    text-align: center;
+    opacity: 1 !important;
+}
+
+button {
+    font-family: Subject;
+}
+
+.videobg {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+.test {
+    border: 1px solid red;
+}
+
+.fontgender {
+    font-size: 1.5rem;
+    display: block;
+}
+
+.content {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.indent {
+    text-indent: 2.5em;
+}
+
+
+.welcome h1 {
+    animation: fadeIn ease 3s;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 0s background;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-shadow: 0px 72px 48px rgba(128, 92, 0, 0.22), 0px 26.2812px 17.5208px rgba(128, 92, 0, 0.151796), 0px 12.759px 8.50602px rgba(128, 92, 0, 0.122384), 0px 6.25471px 4.16981px rgba(128, 92, 0, 0.097616), 0px 2.47312px 1.64875px rgba(128, 92, 0, 0.0682041);
+}
+
+.barline {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+}
+
+.welcome h1:hover {
+    background: linear-gradient(92.87deg, #94DFFF 5.88%, rgba(255, 246, 168, 0.89) 49.14%, #E8B6FF 90.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 72px 48px rgba(128, 92, 0, 0.22), 0px 26.2812px 17.5208px rgba(128, 92, 0, 0.151796), 0px 12.759px 8.50602px rgba(128, 92, 0, 0.122384), 0px 6.25471px 4.16981px rgba(128, 92, 0, 0.097616), 0px 2.47312px 1.64875px rgba(128, 92, 0, 0.0682041);
+}
+
+
+
+.btnNext {
+    color: black;
+    display: block;
+    max-width: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+    background: linear-gradient(94.35deg, #FFF4BA 12.24%, #EFC2FF 91.73%);
+    border: 1px solid rgba(200, 156, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 51px 72px rgba(139, 78, 5, 0.11), 0px 25.5249px 36.0352px rgba(139, 78, 5, 0.0836366), 0px 15.375px 21.7059px rgba(139, 78, 5, 0.0716748), 0px 9.85311px 13.9103px rgba(139, 78, 5, 0.0627984), 0px 6.38599px 9.01552px rgba(139, 78, 5, 0.055), 0px 4.01991px 5.67517px rgba(139, 78, 5, 0.0472016), 0px 2.30969px 3.26074px rgba(139, 78, 5, 0.0383252), 0px 1.01655px 1.43513px rgba(139, 78, 5, 0.0263634);
+    border-radius: 50px;
+}
+
+.btnNext:hover,
+.btnscore:hover {
+    color: black;
+    box-shadow: 0 0 0 .25rem rgba(200, 156, 0, 0.2);
+}
+
+.btnNextpink {
+    display: block;
+    max-width: 180px;
+    max-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(236, 145, 145);
+    margin: auto;
+    box-shadow: 0px 51px 72px rgba(236, 145, 145, 0.11), 0px 25.5249px 36.0352px rgba(236, 145, 145, 0.0836366), 0px 15.375px 21.7059px rgba(236, 145, 145, 0.0716748), 0px 9.85311px 13.9103px rgba(236, 145, 145, 0.0627984), 0px 6.38599px 9.01552px rgba(236, 145, 145, 0.055), 0px 4.01991px 5.67517px rgba(236, 145, 145, 0.0472016), 0px 2.30969px 3.26074px rgba(236, 145, 145, 0.0383252), 0px 1.01655px 1.43513px rgba(236, 145, 145, 0.0263634);
+}
+
+.btnNextpink:hover {
+    border-color: rgba(236, 145, 145) !important;
+    box-shadow: 0 0 0 .25rem rgba(236, 145, 145, 0.5);
+}
+
+.inputnamebox {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.inputName {
+    width: 80%;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #7CC7E8;
+    border-radius: 100px;
+    box-shadow: 0px 51px 72px rgba(139, 78, 5, 0.11), 0px 25.5249px 36.0352px rgba(139, 78, 5, 0.0836366), 0px 15.375px 21.7059px rgba(139, 78, 5, 0.0716748), 0px 9.85311px 13.9103px rgba(139, 78, 5, 0.0627984), 0px 6.38599px 9.01552px rgba(139, 78, 5, 0.055), 0px 4.01991px 5.67517px rgba(139, 78, 5, 0.0472016), 0px 2.30969px 3.26074px rgba(139, 78, 5, 0.0383252), 0px 1.01655px 1.43513px rgba(139, 78, 5, 0.0263634);
+}
+
+.inputName:focus {
+    border-color: rgba(124, 199, 232, 1) !important;
+    box-shadow: 0 0 0 .25rem rgba(124, 199, 232, 0.2);
+}
+
+.inputAge {
+    width: 80%;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(236, 145, 145, 0.5);
+    box-sizing: border-box;
+    border-radius: 100px;
+    box-shadow: 0px 51px 72px rgba(236, 145, 145, 0.11), 0px 25.5249px 36.0352px rgba(236, 145, 145, 0.0836366), 0px 15.375px 21.7059px rgba(236, 145, 145, 0.0716748), 0px 9.85311px 13.9103px rgba(236, 145, 145, 0.0627984), 0px 6.38599px 9.01552px rgba(236, 145, 145, 0.055), 0px 4.01991px 5.67517px rgba(236, 145, 145, 0.0472016), 0px 2.30969px 3.26074px rgba(236, 145, 145, 0.0383252), 0px 1.01655px 1.43513px rgba(236, 145, 145, 0.0263634);
+}
+
+.inputAge:focus {
+    border-color: rgba(236, 145, 145) !important;
+    box-shadow: 0 0 0 .25rem rgba(236, 145, 145, 0.5);
+}
+
+.btnGender {
+    max-width: 110px;
+    width: 100%;
+    height: 110px;
+    font-size: 3rem;
+    background: #FFFFFF;
+    box-shadow: 0px 51px 72px rgba(163, 156, 216, 0.11), 0px 25.5249px 36.0352px rgba(163, 156, 216, 0.0836366), 0px 15.375px 21.7059px rgba(163, 156, 216, 0.0716748), 0px 9.85311px 13.9103px rgba(163, 156, 216, 0.0627984), 0px 6.38599px 9.01552px rgba(163, 156, 216, 0.055), 0px 4.01991px 5.67517px rgba(163, 156, 216, 0.0472016), 0px 2.30969px 3.26074px rgba(163, 156, 216, 0.0383252), 0px 1.01655px 1.43513px rgba(163, 156, 216, 0.0263634);
+    border-radius: 30px;
+    border: none;
+}
+
+.btnscore {
+    font-size: 1.5rem;
+    color: black;
+    display: block;
+    max-width: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: linear-gradient(94.35deg, #FFF4BA 12.24%, #EFC2FF 91.73%);
+    border: 1px solid rgba(200, 156, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 51px 72px rgba(139, 78, 5, 0.11), 0px 25.5249px 36.0352px rgba(139, 78, 5, 0.0836366), 0px 15.375px 21.7059px rgba(139, 78, 5, 0.0716748), 0px 9.85311px 13.9103px rgba(139, 78, 5, 0.0627984), 0px 6.38599px 9.01552px rgba(139, 78, 5, 0.055), 0px 4.01991px 5.67517px rgba(139, 78, 5, 0.0472016), 0px 2.30969px 3.26074px rgba(139, 78, 5, 0.0383252), 0px 1.01655px 1.43513px rgba(139, 78, 5, 0.0263634);
+    border-radius: 50px;
+    margin: auto;
+}
+
+.male:hover {
+    border-color: rgb(145, 202, 236) !important;
+    box-shadow: 0 0 0 .25rem rgb(145, 202, 236, 0.8);
+}
+
+.female:hover {
+    border-color: rgba(236, 145, 145) !important;
+    box-shadow: 0 0 0 .25rem rgba(236, 145, 145, 0.8);
+}
+
+.genh1 {
+    padding-top: 50px;
+}
+
+.btnanswer {
+    max-width: 400px;
+    width: 80%;
+    height: 40px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%);
+    background-blend-mode: overlay, normal;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    display: block;
+    margin: auto;
+}
+
+.maleimg {
+    max-width: 65px;
+}
+
+.femaleimg {
+    max-width: 65px;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.answerhide {
+    display: none;
+}
+
+.btnhandleback {
+    background-color: rgb(145, 202, 236, 0);
+    border: none;
+    font-size: 2.5rem;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.btnhandlebackresult {
+    justify-content: center;
+    background-color: rgb(145, 202, 236, 0);
+    border: none;
+    font-size: 2.5rem;
+    margin: auto;
+    display: block;
+}
+
+
+.btnhandleback:hover,
+.btnhandlenext:hover,
+.btnhandlebackresult:hover {
+    color: #FFFFFF;
+}
+
+.btnhandlenext {
+    background-color: rgb(145, 202, 236, 0);
+    border: none;
+    font-size: 2.5rem;
+    position: absolute;
+    right: 5% !important;
+    bottom: 5% !important;
+}
+
+.btnhandleback-pos {
+    left: 5% !important;
+    bottom: 5% !important;
+    transform: translateX(0%) !important;
+}
+
+.comment {
+    border: 2px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+}
+
+.iconimg {
+    max-width: 50px !important;
+    max-height: 50px !important;
+}
+
+
+.btnsubmit {
+    display: block;
+    max-width: 400px;
+    max-height: 80px;
+    height: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 1.5rem;
+    margin: auto;
+    background: linear-gradient(94.35deg, #FFF4BA 12.24%, #EFC2FF 91.73%);
+    border: 1px solid rgba(200, 156, 0, 0.5);
+    box-shadow: 0px 51px 72px rgba(139, 78, 5, 0.11), 0px 25.5249px 36.0352px rgba(139, 78, 5, 0.0836366), 0px 15.375px 21.7059px rgba(139, 78, 5, 0.0716748), 0px 9.85311px 13.9103px rgba(139, 78, 5, 0.0627984), 0px 6.38599px 9.01552px rgba(139, 78, 5, 0.055), 0px 4.01991px 5.67517px rgba(139, 78, 5, 0.0472016), 0px 2.30969px 3.26074px rgba(139, 78, 5, 0.0383252), 0px 1.01655px 1.43513px rgba(139, 78, 5, 0.0263634);
+    border-radius: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .videobg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .videobg {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (min-width:576px) {
+    .aboutush1 {
+        font-size: 1.5rem;
+    }
+
+    .imgaboutus {
+        max-width: 150px;
+    }
+}
+
+@media (min-width:768px) {
+
+    .maleimg {
+        max-width: 130px;
+    }
+    
+    .femaleimg {
+        max-width: 130px;
+    }
+
+    .aboutustitle {
+        font-size: 5rem;
+    }
+
+    .aboutuslink {
+        font-size: 2rem;
+    }
+
+    .fontresultTitle {
+        font-size: 2.5rem !important;
+    }
+    .fontresult {
+        font-size: 1.5rem !important;
+    }
+
+    .posFriend {
+        position: absolute !important;
+        top: -16px;
+        right: -57px;
+    }
+
+    .posJobchat {
+        position: absolute !important;
+        top: -34px;
+        left: -132px;
+    }
+
+    .posJobshare {
+        position: absolute !important;
+        top: -49px;
+        left: -152px;
+    }
+
+    .posJobdownload {
+        position: absolute !important;
+        top: -51px;
+        left: -65px;
+    }
+
+    .posemail {
+        font-size: 1.5rem !important;
+        position: absolute;
+        background: white;
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        transform: translateX(20%);
+        text-align: start;
+        max-width: 140px;
+        top: 35%;
+    }
+
+    .posthoughtJob {
+        top: -22px;
+        left: -250px;
+    }
+
+    .posthoughtJob2 {
+        top: -55px;
+        left: -166px;
+    }
+    .posthoughtJob3 {
+        top: -55px;
+        left: -166px;
+    }
+    .posthoughtJob4 {
+        top: -55px;
+        left: -99px;
+    }
+
+    .poschatmember2{
+        font-size: 1.5rem !important;
+        max-width: 150px;
+    }
+    .poschatmember{
+        font-size: 1.5rem !important;
+    }
+
+    .posheadmember {
+        width: 40px;
+        top: 15%;
+        left: 10%;
+    }
+    
+    .posheadmember2 {
+        width: 40px;
+        top: 40%;
+        right: 10%;
+    }
+
+    .postimg2 {
+        width: 250px;
+    }
+
+    .poschatelon {
+        font-size: 1.2rem !important;
+        background-color: whitesmoke !important;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px;
+        max-width: 160px;
+        top: 35%;
+        left: 27%;
+        text-align: start;
+    }
+
+    .poschatelon2 {
+        font-size: 1.2rem !important;
+        background-color: whitesmoke !important;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px;
+        max-width: 160px;
+        top: 55%;
+        left: 27%;
+        text-align: start;
+    }
+
+    .posheadelon {
+        width: 40px;
+        top: 35%;
+        left: 10%;
+        background: aquamarine;
+    }
+
+    .posheadelon2 {
+        width: 40px;
+        top: 55%;
+        left: 10%;
+        background: aquamarine;
+    }
+
+    .poselonpost {
+        font-size: 1rem !important;
+    }
+
+    .posthoughtElon {
+        position: absolute !important;
+        top: -22px;
+        left: -150px;
+    }
+
+    .posthoughtGate5_3 {
+        position: absolute !important;
+        top: -48px;
+        left: -78px;
+    }
+
+    .poschatgate1 {
+        font-size: 1rem !important;
+        top: 16%;
+        right: 32%;
+    }
+
+    .poschatgate2 {
+        font-size: 1rem !important;
+    }
+    .poschatgate3 {
+        font-size: 1rem !important;
+    }
+
+    .posheadgate {
+        width: 35px;
+        top: 15%;
+        right: 10%;
+    }
+
+    .banana {
+        max-width: 150px;
+        top: 133px;
+        left: 80px;
+    }
+
+    .poschatana1 {
+        font-size: 1.5rem !important;
+        top: 90px;
+        left: 80px;
+    }
+    .poschatanaimg1 {
+        width: 50px;
+        top: 80px;
+        left: 20px;
+    }
+
+    .posthoughtGate6_2 {
+        position: absolute !important;
+        top: -30px;
+        left: -153px;
+    }
+
+    .posthoughtfanGate6_2 {
+        position: absolute !important;
+        top: -30px;
+        right: -145px;
+    }
+
+    .poschatmark1 {
+        font-size: 1.2rem !important;
+        top: 51px;
+        left: 52px;
+    }
+    .poschatmark2 {
+        font-size: 1.2rem !important;
+        left: 52px;
+        top: 85px
+    }
+    .poschatmark3 {
+        font-size: 1.2rem !important;
+        left: 52px;
+        top: 120px
+    }
+    .gatemobile {
+        width: 200px;
+    }
+    .poschatimgmark1 {
+        width: 30px;
+        top: 50px;
+        left: 15px;
+    }
+
+    .posthoughtGate5_3 {
+        position: absolute !important;
+        top: -30px;
+        left: -180px;
+    }
+
+    .posthoughtGate5_2 {
+        position: absolute !important;
+        top: -30px;
+        left: -200px;
+    }
+
+    .posthoughtMark4_2 {
+        position: absolute !important;
+        top: -20px;
+        left: -155px;
+    }
+
+    .posthoughtBos4_1 {
+        position: absolute !important;
+        top: -60px;
+        left: -139px;
+    }
+
+    .posthoughtMark4_1 {
+        position: absolute !important;
+        top: -20px;
+        right: -88px;
+    }
+
+    .chatleft {
+        font-size: 1.8rem !important;
+    }
+
+    .chatright {
+        font-size: 1.8rem !important;
+    }
+
+    .posthoughtFam {
+        top: -79px;
+        right: -108px;
+    }
+
+    .posthoughtMark3_4 {
+        position: absolute !important;
+        top: -57px;
+        left: -75px;
+    }
+
+    .thoughtright {
+        font-size: 1.8rem !important;
+    }
+
+    .postMarkscoll {
+        position: absolute !important;
+        top: -22px;
+        left: -150px;
+    }
+
+    .mobilescoll {
+        max-width: 200px;
+        border-radius: 20px;
+    }
+
+    .poscomment {
+        bottom: 127px;
+        left: 76px;
+        font-size: 1.5rem !important;
+        background: white;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 20px;
+    }
+
+    .pos1imgcomment {
+        bottom: 143px;
+        left: 25px;
+        width: 40px;
+    }
+
+    .pos2imgcomment {
+        bottom: 95px;
+        left: 25px;
+        width: 40px;
+    }
+
+    .pos3imgcomment {
+        bottom: 51px;
+        left: 25px;
+        width: 40px;
+    }
+
+    .poscomment2 {
+        bottom: 80px;
+        left: 76px;
+        font-size: 1.5rem !important;
+        background: white;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 20px;
+    }
+
+    .poscomment3 {
+        bottom: 33px;
+        left: 76px;
+        font-size: 1.5rem !important;
+        background: white;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 20px;
+        animation: postcomment 3s forwards;
+    }
+
+    .postimg {
+        width: 300px !important;
+    }
+
+    .postimg4 {
+        width: 250px !important;
+    }
+
+    .postimg3 {
+        width: 270px !important;
+    }
+
+    .posthoughtMark {
+        top: -15px;
+        left: -105px;
+    }
+
+    .thoughtleft {
+        font-size: 1.8rem !important;
+    }
+
+    .fontgender {
+        font-size: 1.8rem;
+    }
+
+    .aboutush1 {
+        font-size: 1.5rem;
+    }
+
+    .imgaboutus {
+        max-width: 150px;
+    }
+
+    .imgresult {
+        max-width: 300px !important;
+        max-height: 350px !important;
+    }
+
+    .inputAge {
+        font-size: 1.4rem !important;
+    }
+
+    .iconimg {
+        max-width: 150px !important;
+        max-height: 150px !important;
+    }
+
+    .btnanswer {
+        font-size: 1.4rem !important;
+    }
+
+    .imgst img {
+        max-width: 300px;
+        max-height: 350px;
+    }
+
+    p {
+        font-size: 1.5rem !important;
+    }
+
+    .btnNext {
+        font-size: 1.5rem !important;
+    }
+
+    .inputName {
+        height: 95px !important;
+        font-size: 1.5rem !important;
+    }
+
+    .btnhandleback {
+        font-size: 4rem !important;
+    }
+
+    .btnhandlebackresult {
+        font-size: 4rem !important;
+    }
+
+    .btnhandlenext {
+        font-size: 4rem !important;
+    }
+
+    .form-age {
+        height: 700px !important;
+    }
+
+    .formName {
+        height: 700px !important;
+    }
+
+    .formName h1 {
+        padding-top: 100px !important;
+    }
+
+    .welcome h1 {
+        font-size: 100px !important;
+    }
+
+    .btnGender {
+        max-width: 201px !important;
+        width: 100% !important;
+        height: 230px !important;
+        font-size: 6rem !important;
+    }
+
+    p {
+        font-size: 2rem !important;
+    }
+
+    .btnanswer {
+        max-width: 567px !important;
+        width: 100% !important;
+        height: 60px !important;
+        font-size: 1.8rem !important;
+    }
+
+}
+
+
+@media (min-width:991px) {
+
+    .posFriend {
+        position: absolute !important;
+        top: 6px;
+        right: -304px;
+    }
+
+    .posJobchat {
+        position: absolute !important;
+        top: -34px;
+        left: -284px;
+    }
+
+    .posJobdownload {
+        position: absolute !important;
+        top: -43px;
+        left: -283px;
+    }
+
+    .posthoughtJob2 {
+        top: -55px;
+        left: -227px;
+    }
+
+    .posthoughtJob3 {
+        top: -55px;
+        left: -233px;
+    }
+    .posthoughtJob4 {
+        top: -55px;
+        left: -178px;
+    }
+
+    .posthoughtGate6_2 {
+        position: absolute !important;
+        top: -30px;
+        left: -290px;
+    }
+
+    .posthoughtfanGate6_2 {
+        position: absolute !important;
+        top: -30px;
+        right: -220px;
+    }
+
+    .posthoughtMark4_2 {
+        position: absolute !important;
+        top: -20px;
+        left: -222px;
+    }
+
+    .posthoughtBos4_1 {
+        position: absolute !important;
+        top: -50px;
+        left: -212px;
+    }
+
+    .posthoughtFam {
+        top: -56px;
+        right: -238px;
+    }
+
+    .posthoughtMark3_4 {
+        position: absolute !important;
+        top: -22px;
+        left: -220px;
+    }
+
+    .form-age {
+        height: 500px !important;
+    }
+
+    .formName {
+        height: 500px !important;
+    }
+
+    .welcome h1 {
+        font-size: 150px !important;
+    }
+
+    .btnsubmit:hover {
+        border-color: rgba(236, 145, 145) !important;
+        box-shadow: 0 0 0 .25rem rgba(236, 145, 145, 0.8) !important;
+    }
+
+    .btnanswer:hover {
+        box-shadow: 0 0 0 .25rem rgba(236, 145, 145, 0.8) !important;
+    }
+}
+
+@media (min-width:1200px) {
+
+
+    .poshome {
+        top: 4%;
+        left: 8%;
+        font-size: 2rem;
+    }
+
+    .poschatmember {
+        font-size: 1.2rem !important;
+    }
+
+    .poschatmember2 {
+        font-size: 1.2rem !important;
+        max-width: 120px;
+    }
+
+    .postimg2 {
+        width: 200px;
+    }
+
+    .formName h1 {
+        padding-top: 100px !important;
+    }
+
+}
+
+@media (min-width:1600px) {
+    br {
+        display: block !important;
+    }
+
+    .maleimg {
+        max-width: 130px;
+    }
+    
+    .femaleimg {
+        max-width: 130px;
+    }
+
+    .fontresultTitle {
+        font-size: 3rem !important;
+    }
+    .fontresult {
+        font-size: 2rem !important;
+    }
+
+    .aboutush1 {
+        font-size: 2rem;
+    }
+
+    .imgaboutus {
+        max-width: 150px;
+    }
+
+    .imgresult {
+        max-width: 400px !important;
+        max-height: 450px !important;
+    }
+
+    .form-age {
+        height: 740px !important;
+    }
+
+    .formName {
+        height: 740px !important;
+    }
+
+    .welcome h1 {
+        font-size: 200px !important;
+    }
+
+    .btnGender {
+        max-width: 255px !important;
+        width: 100% !important;
+        height: 300px !important;
+        font-size: 7rem !important;
+    }
+
+    p {
+        font-size: 2.5rem !important;
+    }
+
+    .btnanswer {
+        max-width: 567px !important;
+        width: 100% !important;
+        height: 60px !important;
+        font-size: 1.8rem !important;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pos {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-20px);
+    }
+}
+
+.rotate-center {
+    animation: rotate-center 3s linear infinite;
+}
+
+@keyframes rotate-center {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.heartbeat {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+        transform-origin: center center;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        transform: scale(0.91);
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        transform: scale(0.98);
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        transform: scale(0.87);
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+}
+
+.bounce-top {
+    animation: bounce-top 0.9s forwards;
+}
+
+@keyframes bounce-top {
+    0% {
+        transform: translateY(-45px);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    40% {
+        transform: translateY(-24px);
+        animation-timing-function: ease-in;
+    }
+
+    65% {
+        transform: translateY(-12px);
+        animation-timing-function: ease-in;
+    }
+
+    82% {
+        transform: translateY(-6px);
+        animation-timing-function: ease-in;
+    }
+
+    93% {
+        transform: translateY(-4px);
+        animation-timing-function: ease-in;
+    }
+
+    25%,
+    55%,
+    75%,
+    87% {
+        transform: translateY(0px);
+        animation-timing-function: ease-out;
+    }
+
+    100% {
+        transform: translateY(0px);
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+}
+
+.vibrate-1 {
+    animation: vibrate-1 1s linear infinite both;
+}
+
+@keyframes vibrate-1 {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+.shake-right {
+    animation: shake-right 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.shake-left {
+    animation: shake-left 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+@keyframes shake-right {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 100% 50%;
+    }
+
+    10% {
+        transform: rotate(2deg);
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: rotate(-4deg);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: rotate(4deg);
+    }
+
+    80% {
+        transform: rotate(-2deg);
+    }
+
+    90% {
+        transform: rotate(2deg);
+    }
+}
+
+@keyframes shake-left {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 0 50%;
+    }
+
+    10% {
+        transform: rotate(2deg);
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: rotate(-4deg);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: rotate(4deg);
+    }
+
+    80% {
+        transform: rotate(-2deg);
+    }
+
+    90% {
+        transform: rotate(2deg);
+    }
+}
+
+.jello-vertical {
+    animation: jello-vertical 1.7s infinite both;
+}
+
+@keyframes jello-vertical {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    40% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    50% {
+        transform: scale3d(0.85, 1.15, 1);
+    }
+
+    65% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    75% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.markanimate {
+    animation: markfade 3s forwards;
+}
+
+@keyframes markfade {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
